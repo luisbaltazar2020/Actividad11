@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Discos
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-list-header>
+      Albums
+    </ion-list-header>
+    <ion-item>
+      <ion-avatar item-start>
+        <img [src]="Disco.img">
+      </ion-avatar>
+        <h1>{{Disco.artista}}  </h1>
+        <h2> {{Disco.titulo}} </h2>
+        <p> {{Disco.anio}} </p>
+        <h3> {{Disco.estrellas}} </h3>
+        <h3> {{Disco.play}} </h3>
+    </ion-item>
+  </ion-list>
+</ion-content>
